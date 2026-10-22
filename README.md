@@ -68,3 +68,16 @@ This Spring Boot microservice is responsible for managing **document metadata** 
 
 # Run the service
 ./mvnw spring-boot:run
+```
+
+---
+
+## Part of the DMS project
+
+| Repository | Role |
+|---|---|
+| [dms-frontend-react](https://github.com/FaridaBoubekeur/dms-frontend-react) | React user interface |
+| [dms-document-service](https://github.com/FaridaBoubekeur/dms-document-service) | Document metadata, categories, departments, role-based access, Kafka |
+| [dms-storage-service](https://github.com/FaridaBoubekeur/dms-storage-service) | File upload and pre-signed downloads on MinIO (S3) |
+
+Released under the [MIT License](LICENSE).

@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
